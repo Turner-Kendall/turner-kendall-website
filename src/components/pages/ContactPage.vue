@@ -1,0 +1,3 @@
+<template>
+  HELLO CONTACT
+</template>
