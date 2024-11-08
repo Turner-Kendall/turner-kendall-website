@@ -1,13 +1,13 @@
 <template>
   <splide :options="options">
     <splide-slide>
-      <img src="/images/2.webp">
+      <img src="/images/s-1.webp">
     </splide-slide>
     <splide-slide>
-      <img src="/images/1.webp">
+      <img src="/images/s-2.webp">
     </splide-slide>
     <splide-slide>
-      <img src="/images/3.webp">
+      <img src="/images/s-3.webp">
     </splide-slide>
   </splide>
 </template>

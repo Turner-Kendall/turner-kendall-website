@@ -9,6 +9,7 @@
       <a :href="i.url">
         <img :src="`/images/${i.id}.webp`" :alt="i.name"  class="gal-img"/>
       </a>
+      <p>{{ i.name}}</p>
     </div>
     </section>
 
@@ -19,63 +20,63 @@
 let images = [
   {
     id: 1,
-    name: "Martin Sanchez",
-    url: "https://unsplash.com/photos/the-letter-a-is-made-up-of-bright-lines-3wXrEK8h_pw",
+    name: "Just like the white wing dove",
+    url: "/images/1.webp",
   },
   {
     id: 2,
-    name: "Maksin Samuilionak",
-    url: "https://unsplash.com/photos/a-half-moon-is-seen-in-the-dark-sky-NaasFq1Xwmw",
+    name: "Election Video Graphic",
+    url: "/images/2.webp",
   },
   {
     id: 3,
-    name: "Eric Muhr",
-    url: "https://unsplash.com/photos/a-view-of-a-beach-through-a-cave-lU13aSwgcz4",
+    name: "What I think I think",
+    url: "/images/3.webp",
   },
   {
     id: 4,
-    name: "Josh Hild",
-    url: "https://unsplash.com/photos/a-person-taking-a-picture-with-a-cell-phone-V-fPnAIgiYY",
+    name: "First Design Back",
+    url: "/images/4.webp",
   },
   {
     id: 5,
-    name: "Galina Nelyubova",
-    url: "https://unsplash.com/photos/two-ice-cream-pops-sitting-on-top-of-each-other-V2qbMKlU4vU",
+    name: "Pirate Bot Video Overlay",
+    url: "/images/5.webp",
   },
   {
     id: 6,
-    name: "Galina Nelyubova",
-    url: "https://unsplash.com/photos/a-bunch-of-soap-bubbles-floating-in-the-air-h-Ij-IDnc00",
+    name: "Video Thumbnail",
+    url: "/images/6.webp",
   },
   {
     id: 7,
-    name: "Cash Macanaya",
-    url: "https://unsplash.com/photos/a-robot-that-is-standing-in-the-dark-TBikX7r2pKA",
+    name: "Salty Ape",
+    url: "/images/7.webp",
   },
   {
     id: 8,
-    name: "Pawel Czerwinski",
-    url: "https://unsplash.com/photos/background-pattern-uXy0UbFwoXE",
+    name: "Dark Brandon Rising",
+    url: "/images/8.webp",
   },
   {
     id: 9,
-    name: "Jumping Jax",
-    url: "https://unsplash.com/photos/a-colorful-sound-wave-on-a-black-background--TfwQjOWEp8",
+    name: "Independence Day",
+    url: "/images/9.webp",
   },
   {
     id: 10,
-    name: "BoliviaInteligente",
-    url: "https://unsplash.com/photos/a-group-of-planets-in-the-dark-sky-_75VdeLT3BI",
+    name: "RIP Mainstream Media",
+    url: "/images/10.webp",
   },
   {
     id: 11,
-    name: "Suleman Serwar",
-    url: "https://unsplash.com/photos/a-white-vase-filled-with-purple-flowers-on-top-of-a-table-SB3Mc8cfnSI",
+    name: "Print Design",
+    url: "/images/11.webp",
   },
   {
     id: 12,
     name: "Suleman Serwar",
-    url: "https://unsplash.com/photos/a-pair-of-headphones-sitting-on-top-of-a-table-2-3WHq7X8wg",
+    url: "/images/12.webp",
   },
 ]
 </script>
@@ -110,4 +111,5 @@ let images = [
 h3, h6{
   margin: 0;
 }
+p{font-size: .75rem;}
 </style>

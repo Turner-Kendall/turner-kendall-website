@@ -6,7 +6,23 @@
       <p>This is where I hope to bring together all the stuff I have written...</p>
     </header>
 
-
+    <ul>
+      <li>
+        <a href="/article/undervalued">Undervalued HTML</a>
+      </li>
+      <li>
+        <a href="/article/concurrency">Comparing Concurrency</a>
+      </li>
+      <li>
+        <a href="/article/go-rust">From Go To Rust</a>
+      </li>
+      <li>
+        <a href="/article/why-rust">Why Rust</a>
+      </li>
+      <li>
+        <a href="/article/vue-tips">Vue Tips</a>
+      </li>
+    </ul>
 
     <footer>
       <p>😼</p>
@@ -14,3 +30,7 @@
 
   </article>
 </template>
+
+<style scoped>
+  li {font-size: 1.33rem;}
+</style>
