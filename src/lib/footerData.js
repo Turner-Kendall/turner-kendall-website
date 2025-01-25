@@ -2,16 +2,18 @@ export const footerSections = [
   {
     title: "Pages:",
     links: [
-      { title: "Home Page", link: "/", id: "1" },
       { title: "About Me", link: "/page/about", id: "2" },
-      { title: "Articles", link: "/article/list", id: "3" },
+      { title: "New Articles", link: "/article/list", id: "3" },
       { title: "Photo Gallery", link: "/page/gallery", id: "4" },
       { title: "Contact Me", link: "/page/contact", id: "5" },
+      { title: "My Music", link: "/", id: "1" },
     ],
   },
   {
     title: "Articles:",
     links: [
+      { title: "Web Scraping", link: "/article/scraping", id: "9" },
+      { title: "LLM Token Metadata ", link: "/article/tokens", id: "10" },
       { title: "Undervalued HTML", link: "/article/undervalued", id: "6" },
       {
         title: "Concurrency Comp",
@@ -19,8 +21,7 @@ export const footerSections = [
         id: "7",
       },
       { title: "Go To Rust", link: "/article/go-rust", id: "8" },
-      { title: "Why Learn Rust?", link: "/article/why-rust", id: "9" },
-      { title: "VueJs Tips", link: "/article/vue-tips", id: "10" },
+
     ],
   },
   {
@@ -44,7 +45,7 @@ export const footerSections = [
       { title: "The G.O.A.T", link: "https:/memewar.app/meme/25", id: "17" },
       { title: "Libertarians", link: "https://memewar.app/meme/26", id: "18" },
       { title: "A Revolution", link: "https://memewar.app/meme/27", id: "19" },
-      {title: "Veepstakes", link: "https://memewar.app/meme/113", id: "20"}
+      { title: "Veepstakes", link: "https://memewar.app/meme/113", id: "20" },
     ],
   },
 ];

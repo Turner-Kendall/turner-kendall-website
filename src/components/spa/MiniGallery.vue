@@ -1,5 +1,5 @@
 <template>
-  <article >
+  <article id="MiniGallery">
     
   <header>
     <h3>Responsive Images & Gallery</h3>
@@ -50,6 +50,11 @@ let images = [
 </script>
 
 <style scoped>
+
+#MiniGallery {
+  padding-bottom: 5rem;
+}
+
 #gallery {
   display: flex;
   flex-wrap: wrap;

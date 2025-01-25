@@ -98,7 +98,7 @@ body {
   padding: 1rem;
 }
 
-.sep{
+.sep {
   margin: 2rem 0 3rem 0;
 }
 
@@ -198,7 +198,6 @@ img {
   border-radius: var(--third);
 }
 
-
 /* Classes */
 
 .smaller {
@@ -210,27 +209,109 @@ img {
 }
 
 /* Ids */
-#contact h4{
-  margin-bottom: .3rem;
+#contact h4 {
+  margin-bottom: 0.3rem;
 }
 
-#email, #name, #message {
-  font-size: .8rem;
+#email,
+#name,
+#message {
+  font-size: 0.8rem;
 }
 
-#email, #name, aside button {
+#email,
+#name,
+aside button {
   height: 2rem;
 }
 
-aside button{
+aside button {
   padding: 0;
 }
 
- #message {
-  font-size: .8rem;
+#message {
+  font-size: 0.8rem;
   height: 4rem;
 }
 
 ul.listicle li {
   padding: 10px 0;
+}
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+code.hljs {
+  padding: 3px 5px;
+}
+.hljs {
+ 
+}
+.hljs-comment {
+  color: #697070;
+}
+.hljs-punctuation,
+.hljs-tag {
+  color: #444a;
+}
+.hljs-tag .hljs-attr,
+.hljs-tag .hljs-name {
+  color: #444;
+}
+.hljs-attribute,
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-name,
+.hljs-selector-tag {
+  font-weight: 700;
+}
+.hljs-deletion,
+.hljs-number,
+.hljs-quote,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-string,
+.hljs-template-tag,
+.hljs-type {
+  color: rgb(69, 140, 255);
+}
+.hljs-section,
+.hljs-title {
+  color: rgb(69, 140, 255);
+  font-weight: 700;
+}
+.hljs-link,
+.hljs-operator,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-symbol,
+.hljs-template-variable,
+.hljs-variable {
+  color: #ab5690;
+}
+.hljs-literal {
+  color: #56ab6a;
+}
+.hljs-addition,
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-comment {
+  color: #56ab6a;
+}
+.hljs-meta {
+  color: #1f7199;
+}
+.hljs-meta .hljs-string {
+  color: #38a;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
 }

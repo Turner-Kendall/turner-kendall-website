@@ -12,15 +12,14 @@
       <a id="contact" href="/page/contact">
         <span class="bm-link">Contact</span>
       </a>
-      <a id="register" href="/article/undervalued">
-        <span class="bm-link">Latest Article</span>
+      <a id="register" href="/article/list">
+        <span class="bm-link">Articles</span>
       </a>
-      <a id="login" href="/login">
-        <span class="bm-link">Login</span>
+      <a id="music" href="/page/music">
+        <span class="bm-link">Music</span>
       </a>
     </Slide>
   </nav>
-
 </template>
 
 <script>

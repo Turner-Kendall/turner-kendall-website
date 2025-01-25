@@ -8,6 +8,18 @@
 
     <ul>
       <li>
+        <a href="/article/jwt">JSON Web Tokens</a>
+      </li>
+      <li>
+        <a href="/article/systemd">On Boot w/ Systemd</a>
+      </li>
+      <li>
+        <a href="/article/scraping">Web Scraping</a>
+      </li>
+       <li>
+        <a href="/article/tokens">LLM Token Metadata</a>
+      </li>
+      <li>
         <a href="/article/undervalued">Undervalued HTML</a>
       </li>
       <li>
