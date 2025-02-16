@@ -6,7 +6,7 @@ export const footerSections = [
       { title: "New Articles", link: "/article/list", id: "3" },
       { title: "Photo Gallery", link: "/page/gallery", id: "4" },
       { title: "Contact Me", link: "/page/contact", id: "5" },
-      { title: "My Music", link: "/", id: "1" },
+      { title: "My Music", link: "/page/music", id: "1" },
     ],
   },
   {

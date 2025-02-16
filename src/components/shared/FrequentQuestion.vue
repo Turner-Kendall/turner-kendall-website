@@ -33,7 +33,7 @@
 
     <details>
       <summary>A Song?</summary>
-        <p>Like to hear it? <a href="https://tripkendall.com/audio/boomabilly.mp3">Here it goes...</a></p>
+        <p>Like to hear it? <a href="/audio/boomabilly.mp3">Here it goes...</a></p>
     </details>
 
     <details>
