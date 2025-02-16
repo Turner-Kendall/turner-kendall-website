@@ -1,5 +1,8 @@
 <template>
   <section class="wrapper">
+    <div v-if="pageRoute == 'vite'">
+      <VueVite />
+    </div>
     <div v-if="pageRoute == 'systemd'">
       <OnBootWithSystemd />
     </div>
@@ -44,7 +47,8 @@ import VueTips from "../components/articles/VueTips.vue";
 import ArticleList from "../components/articles/ArticleList.vue";
 import TokenEmbeddings from "../components/articles/TokenEmbeddings.vue";
 import OnBootWithSystemd from "../components/articles/OnBootWithSystemd.vue";
-import JSONWebTokens from "../components/articles/JSONWebTokens.vue";
+import JSONWebTokens from "../components/articles/JSONWebTokens.vue"
+import VueVite from "../components/articles/VueVite.vue";
 const route = useRoute();
 const pageRoute = route.params.name;
 </script>

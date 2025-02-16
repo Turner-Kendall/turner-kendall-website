@@ -29,13 +29,13 @@ export const footerSections = [
     links: [
       { title: "Meme War", link: "https://memewar.app", id: "11" },
       { title: "The Dic", link: "https://thedic.site", id: "12" },
-      { title: "φhi.skin", link: "https://phi.skin", id: "13" },
+      { title: "Kayso Podcast", link: "https://kayso.net", id: "13" },
       {
         title: "Get φhi",
         link: "https://github.com/Turner-Kendall/phi",
         id: "14",
       },
-      { title: "Foundzed Tech", link: "https://tech.foundzed.com/", id: "15" },
+      { title: "Weblog Network", link: "https://weblog.network/", id: "15" },
     ],
   },
   {

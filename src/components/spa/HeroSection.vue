@@ -7,7 +7,7 @@
     <footer>
       This website is based on the Vue Skin I am working on
       <a href="https://phi.skin">φhi.skin</a> <br />
-      My latest article: <a href="/article/vue-tips">Vue Tips</a> is here.
+      My latest article: <a href="/article/vite">Vue + Vite</a> is here.
     </footer>
   </article>
 

@@ -8,6 +8,9 @@
 
     <ul>
       <li>
+        <a href="/article/vite">Vue + Vite</a>
+      </li>
+      <li>
         <a href="/article/jwt">JSON Web Tokens</a>
       </li>
       <li>

@@ -10,29 +10,28 @@
       </p>
     </header>
 
-    <div class="the-latest">
+    <div class="the-latest-podcast">
+        
+      <img src="/images/kayso.webp" alt="Kayso Podcast" />
       <h3>The Latest</h3>
       <h6>
-        <a href="https://kayso.net" target="_blank">
-          Episode: 7 - Don't call it a comeback!
+        <a href="https://kayso.net/podcasts/thirteen" target="_blank">
+          Episode: 13 - Elon Musk.
         </a>
       </h6>
-      <p>As this podcast re-launches at a slightly better domain I try and catch some of the magic the got the other one
-        to go mini viral...</p>
+      <p>The Kayso (not) Elon Musk Interview.</p>
     </div>
-
-    <figure>
-      <img src="/images/kayso.webp" alt="Meme War" />
-      <figcaption>
-        The
-        <a href="https://kayso.net" target="_blank">Kayso Podcast</a>
-      </figcaption>
-    </figure>
+ 
 
   </article>
 </template>
 
 <style scoped>
+
+.the-latest-podcast{
+  margin-top: -60px;
+}
+
 h3,
 h6 {
   margin: 0;

@@ -1,5 +1,4 @@
-/* Phi
-  tk@turnerkendall.com
+/* tk@turnerkendall.com
   https://turnerkendall.com */
 
 :root {
@@ -50,6 +49,7 @@ body {
   margin: 0 auto;
   padding: var(--two-one);
   text-align: center;
+  background-color: #152129;
   background-image: url("/background.svg");
   background-size: cover;
   background-position: center;
@@ -199,6 +199,11 @@ img {
 }
 
 /* Classes */
+
+.reverse {
+  background-color: #1f2d39;
+  padding: 5px;
+}
 
 .smaller {
   font-size: 0.8rem;
